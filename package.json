@@ -16,19 +16,8 @@
 	],
 	"homepage": "https://it.rocks",
 	"keywords": [
-		"carriage return",
-		"asset-loader",
-		"fix",
-		"fixed",
 		"front-end",
-		"it.rocks",
-		"line feed",
-		"line break",
-		"pre",
-		"raw",
-		"style",
-		"text",
-		"white-space"
+		"it.rocks"
 	],
 	"license": "ISC",
 	"module": "./asset-loader.js",
@@ -42,5 +31,5 @@
 	},
 	"type": "module",
 	"types": "./asset-loader.d.ts",
-	"version": "0.0.4"
+	"version": "0.0.5"
 }
