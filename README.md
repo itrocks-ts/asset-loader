@@ -5,3 +5,5 @@
 [![discord](https://img.shields.io/discord/1314141024020467782?color=7289da&label=discord&logo=discord&logoColor=white)](https://25.re/ditr)
 
 # asset-loader
+
+Dynamically loads CSS and JavaScript files from your modules and appends them to the <head>.
