@@ -6,4 +6,4 @@
 
 # asset-loader
 
-Dynamically loads CSS and JavaScript files from your modules and appends them to the <head>.
+Dynamically loads CSS and JavaScript files from your modules and appends them to the &lt;head&gt;.

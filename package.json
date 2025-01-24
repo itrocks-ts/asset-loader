@@ -42,5 +42,5 @@
 	},
 	"type": "module",
 	"types": "./asset-loader.d.ts",
-	"version": "0.0.3"
+	"version": "0.0.4"
 }
