@@ -4,8 +4,8 @@ export function loadScript(fileName: string, onLoad?: (link: HTMLScriptElement) 
 	const exists = document.head.querySelector<HTMLScriptElement>('script[src="' + fileName + '"]')
 	if (exists) return onLoad?.(exists)
 
-	const script  = document.createElement('script')
-	script.src    = fileName
+	const script = document.createElement('script')
+	script.src   = fileName
 	if (onLoad) {
 		script.addEventListener('load', function() { onLoad(this) })
 	}
