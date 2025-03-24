@@ -1,7 +1,7 @@
 
 const loaded = new Map<string, HTMLLinkElement>
 
-export default function loadCss(fileName: string, onLoad?: (link: HTMLLinkElement) => void)
+export function loadCss(fileName: string, onLoad?: (link: HTMLLinkElement) => void)
 {
 	const exists = loaded.get(fileName) ?? document.head.querySelector<HTMLLinkElement>('link[href="' + fileName + '"]')
 	if (exists) return onLoad?.(exists)
