@@ -5,8 +5,8 @@
 	},
 	"description": "Dynamically loads CSS and JavaScript files from your modules and appends them to the <head>",
 	"devDependencies": {
-		"@types/node": "^22.9",
-		"typescript": "~5.8"
+		"@types/node": "^24.10",
+		"typescript": "~5.9"
 	},
 	"files": [
 		"LICENSE",
@@ -31,5 +31,5 @@
 	},
 	"type": "module",
 	"types": "./asset-loader.d.ts",
-	"version": "0.0.7"
+	"version": "0.0.8"
 }
