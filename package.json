@@ -16,8 +16,17 @@
 	],
 	"homepage": "https://it.rocks",
 	"keywords": [
+		"asset-loader",
+		"assets",
+		"css",
+		"dynamic",
 		"front-end",
-		"it.rocks"
+		"head",
+		"it.rocks",
+		"javascript",
+		"js",
+		"loader",
+		"script"
 	],
 	"license": "ISC",
 	"module": "./asset-loader.js",
@@ -31,5 +40,5 @@
 	},
 	"type": "module",
 	"types": "./asset-loader.d.ts",
-	"version": "0.0.8"
+	"version": "0.0.9"
 }
