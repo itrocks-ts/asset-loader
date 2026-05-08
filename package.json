@@ -5,8 +5,7 @@
 	},
 	"description": "Dynamically loads CSS and JavaScript files from your modules and appends them to the <head>",
 	"devDependencies": {
-		"@types/node": "^24.10",
-		"typescript": "~5.9"
+		"typescript": "^6.0"
 	},
 	"files": [
 		"LICENSE",
@@ -29,7 +28,6 @@
 		"script"
 	],
 	"license": "ISC",
-	"module": "./asset-loader.js",
 	"name": "@itrocks/asset-loader",
 	"repository": {
 		"type": "git",
@@ -38,7 +36,5 @@
 	"scripts": {
 		"build": "tsc"
 	},
-	"type": "module",
-	"types": "./asset-loader.d.ts",
-	"version": "0.0.9"
+	"version": "0.1.0"
 }
