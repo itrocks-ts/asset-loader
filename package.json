@@ -5,7 +5,7 @@
 	},
 	"description": "Dynamically loads CSS and JavaScript files from your modules and appends them to the <head>",
 	"devDependencies": {
-		"typescript": "^6.0"
+		"typescript": "^7.0"
 	},
 	"files": [
 		"LICENSE",
@@ -36,5 +36,5 @@
 	"scripts": {
 		"build": "tsc"
 	},
-	"version": "0.1.0"
+	"version": "0.1.1"
 }
